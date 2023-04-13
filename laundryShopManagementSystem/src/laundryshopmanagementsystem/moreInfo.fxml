@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="laundryshopmanagementsystem.moreInfoController">
+   <children>
+      <AnchorPane fx:id="moreInfo_form" prefHeight="200.0" prefWidth="200.0" styleClass="card" stylesheets="@moreInfoDesign.css">
+         <children>
+            <AnchorPane layoutX="226.0" layoutY="64.0" prefHeight="69.0" prefWidth="602.0" styleClass="top-form" stylesheets="@moreInfoDesign.css" AnchorPane.bottomAnchor="334.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="14.0" layoutY="55.0" size="5em" />
+                  <Label layoutX="78.0" layoutY="26.0" text="Customer ID:" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="moreInfo_customerID" layoutX="171.0" layoutY="26.0" prefHeight="21.0" prefWidth="166.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TableView fx:id="moreInfo_tableView" layoutX="18.0" layoutY="83.0" prefHeight="286.0" prefWidth="566.0">
+              <columns>
+                <TableColumn fx:id="moreInfo_clothType" prefWidth="104.0" text="Cloth Type" />
+                <TableColumn fx:id="moreInfo_service" prefWidth="180.0" text="Service" />
+                  <TableColumn fx:id="moreInfo_kilo" prefWidth="83.0" text="Kilo" />
+                  <TableColumn fx:id="moreInfo_price" prefWidth="102.0" text="Price ($)" />
+                  <TableColumn fx:id="moreInfo_date" prefWidth="95.0" text="Date" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

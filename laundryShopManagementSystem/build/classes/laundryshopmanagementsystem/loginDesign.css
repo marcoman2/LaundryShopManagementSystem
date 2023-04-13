@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 23, 23, 11:46:16 AM
+    Author     : WINDOWS 10
+*/
+
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+}
+
+.white-form{
+    -fx-background-color: #fff;
+}
+
+.header-label{
+    -fx-border-color: #4694bb;
+    -fx-border-width: 0 0 0 2.5px;
+    -fx-padding: 0 0 0 5px;
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #ddd;
+    -fx-border-width: .7px;
+    -fx-border-radius: 2px;
+    -fx-font-size: 13px;
+}
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom, #4694bb, #2a5178);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom, #40a9da, #2b669d);
+}

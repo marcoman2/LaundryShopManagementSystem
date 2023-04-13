@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="card_form" prefHeight="230.0" prefWidth="280.0" styleClass="card" stylesheets="@customerCardDesign.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="laundryshopmanagementsystem.customerCardController">
+   <children>
+      <VBox layoutX="108.0" layoutY="30.0" prefHeight="230.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="124.0" prefWidth="280.0" stylesheets="@customerCardDesign.css">
+               <children>
+                  <FontAwesomeIcon fill="#4b6cab" glyphName="USER" size="10em" />
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <Label text="Customer ID:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="card_customerID" text="Label">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="159.0" prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <Label text="Date Ordered:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="card_datOrder" text="Label">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="48.0" prefWidth="280.0">
+               <children>
+                  <Button fx:id="card_moreInfo" mnemonicParsing="false" onAction="#moreInfoBtn" prefHeight="31.0" prefWidth="165.0" styleClass="btn" stylesheets="@customerCardDesign.css" text="More Info" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

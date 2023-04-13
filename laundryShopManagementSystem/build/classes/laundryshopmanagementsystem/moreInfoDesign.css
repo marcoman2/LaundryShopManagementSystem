@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04 11, 23, 1:21:07 PM
+    Author     : WINDOWS 10
+*/
+
+.card{
+    -fx-background-color: #fff;
+}
+.top-form{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-padding: 0px;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 8px 8px 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff
+}

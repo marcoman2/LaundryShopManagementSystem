@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 23, 23, 12:24:58 PM
+    Author     : WINDOWS 10
+*/
+
+.nav{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+}
+
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-border-color: #fff;
+    -fx-border-width: .7px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.nav-btn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #2a5178;
+}
+
+.header{
+    -fx-background-color: #2a5178;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #fff;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.logout{
+    -fx-background-color: transparent;
+    -fx-background-radius: 50px;
+    -fx-border-color: #1cacee;
+    -fx-border-width: .7px;
+    -fx-border-radius: 50px;
+    -fx-padding: 5px;
+}
+.logout:hover{
+    -fx-background-color: #fff;
+    -fx-border-color: #fff;
+    -fx-background-radius: 50px;
+}
+
+.white-form{
+    -fx-background-color: #fff;
+}
+
+.radius{
+    -fx-background-radius: 8px;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-padding: 0px;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 8px 8px 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #379dcc, #2d6ba1);
+}
+
+.top-card{
+    -fx-background-color: linear-gradient(to bottom right, #4694bb, #2a5178);
+    -fx-background-radius: 8px 8px 0 0 ;
+}
+
+.scroll-pane{
+    -fx-background-color: transparent;
+}
